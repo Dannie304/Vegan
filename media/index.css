@@ -1,0 +1,80 @@
+@media (max-width:650px) {
+
+    .homepage {
+        height: 100vh;
+        background: url(/images/slider-1.jpg);
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .homepage .overlay {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        height: 100vh;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .content {
+        padding-top: 300px;
+        display: block;
+        line-height: 1.7;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content h1 {
+        color: white;
+        font-family: cursive;
+        font-size: 5rem;
+    }
+
+    .content p {
+        display: flex;
+        text-align: center;
+        font-family: "source-sans-pro-semi-bold", sans-serif;
+        color: white;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .btns {
+        display: flex;
+        gap: 17px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+
+    #btn1 {
+        height: 40px;
+        width: 130px;
+        color: #fbc31b;
+        background: #ffffff;
+        border: 1px solid white;
+        border-radius: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+        transition: 0.4 linear;
+    }
+
+
+    #btn2 {
+        height: 40px;
+        width: 150px;
+        color: #fbc31b;
+        background: transparent;
+        border: 2px solid #fbc31b;
+        border-radius: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+    }
+
+}
