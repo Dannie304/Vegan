@@ -23,7 +23,7 @@
 .landing {
     height: 80vh;
     width: 100%;
-    background-image: url('/images/page-title-bg.jpg');
+    background-image: url('../images/page-title-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
